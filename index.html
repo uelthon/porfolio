@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Porfolio Elthon</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+  <script defer src="assets/fontawesome/solid.min.js"></script>
+  <script defer src="assets/fontawesome/brands.min.js"></script>
+  <script defer src="assets/fontawesome/fontawesome.min.js"></script>
+</head>
+<body>
+  <header>
+      <div class="container-header">
+      <div class="header-logo">
+        <a href="/">uelthon<span>Porfolio</span></a>
+      </div>
+      <nav id="navigate">
+        <div class="container-title-nav">
+          <div class="header-logo">
+            <a href="/">uelthon<span>Porfolio</span></a>
+          </div>
+          <div id="close-btn">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+        <ul>
+          <li id="link"><a href="#home">Home</a></li>
+          <li id="link"><a href="#skills">Skills</a></li>
+          <li id="link"><a href="#projects">Projects</a></li>
+          <li id="link"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+  </header>
+  <main class="container-main">
+    <section class="container-home 
+    " id="home">
+      <div class="container-home-title 
+">
+        <h1>Hello, I'm a Full Stack web Developer</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, dolorum!</p>
+        <div class="button">My resume</div>
+      </div>
+      <div class="container-avatar">
+        <img src="assets/img/myAvatar.png" alt="avatar"/>
+      </div>
+    </section>
+    <section class="container-skills container-section" id="skills">
+      <div class="skills-title section-title">
+        <h1>Skills</h1>
+      </div>
+      <div class="skills-gallery">
+        <i style="color: #f64a1d;" class="fa-brands fa-html5 item"></i>
+        <i style="color: #2fa7d9;" class="fa-brands fa-css3-alt item"></i>
+        <i style="color: #7611f6;" class="fa-brands fa-bootstrap item"></i>
+        <i style="color: #f0d91e;" class="fa-brands fa-js item"></i>
+        <i style="color: #7bc326;" class="fa-brands fa-node item"></i>
+        <img src="assets/img/express-js.png" />
+        <img src="assets/img/mongodb.png" alt="mongodb" />
+        <img src="assets/img/postgres.png" alt="postgres"/>
+        <i style="color: #00d3f7;" class="fa-brands fa-react item"></i>
+        <img src="assets/img/reactredux.svg" />
+        <img src="assets/img/react-router.png"/>
+        <img src="assets/img/d3.png" />
+        <img src="assets/img/reactchart.svg" />
+        <img src="assets/img/eslint.png" />
+        <img src="assets/img/jest.png" />
+        <i style="color: #eb4d28;" class="fa-brands fa-git item"></i>
+        <i style="color:#000 ;" class="fa-brands fa-github item"></i>
+      </div>
+    </section>
+    <section class="container-projects container-section" id="projects">
+      <div class="projects-title section-title">
+        <h1>Projects</h1>
+      </div>
+    </section>
+    <section class="container-contact container-section" id="contact">
+      <div class="contact-title section-title">
+        <h1>Contact me</h1>
+      </div>
+      <form action="https://formsubmit.co/ejuc95@gmail.com" method="POST">
+        <div class="container-input item">
+          <input type="email" placeholder="Email" name="email" required />
+        </div>
+        <div class="container-text item">
+          <textarea placeholder="Message" maxlength="280" name="message" style="resize:none ;"></textarea>
+        </div>
+        <div class="container-button item">
+          <button type="submit">Contact</button>
+        </div>
+      </form>
+    </section>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
