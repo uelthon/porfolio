@@ -14,17 +14,19 @@ const projects = [
     id: 1,
     title: 'CellStore',
     url: 'https://cellstore.onrender.com/',
+    github: 'https://github.com/uelthon/cellstore',
     path: 'assets/cellstore',
     img: 'assets/cellstore/0.png',
     backend: ['JavaScript', 'NodeJs', 'Express', 'MongoDB'],
-    frontend: ['ReactJS', 'React-Redux', 'React-Bootstrap'],
+    frontend: ['ReactJS', 'Redux', 'Bootstrap'],
     gallery: ['0','1','2','3','4'],
-    desc: 'An PWA E-commerce Application For Buying Smartphones.'
+    desc: 'An PWA E-commerce Application to Buy Smartphones.'
   },
   {
     id: 2,
     title: 'My Porfolio',
     url: 'https://uelthon.github.io/porfolio/',
+    github: 'https://github.com/uelthon/porfolio',
     path: 'assets/myporfolio',
     img: 'assets/myporfolio/0.png',
     backend: [],
@@ -54,7 +56,12 @@ function displayProject(id){
   const item = projects.find(e => e.id === id)
   if(!item) throw new Error({error: 'item dont exist'});
   const displayItem = `
-                        <h2>${item.title}</h2>
+                        <div class='item-title'>
+                          <h2>${item.title}</h2>
+                          <a href=${item.github} target="_blank" >
+                            <i style="color:#f2f2f2;font-size:1.5em" class="fa-brands fa-github item"></i>
+                          </a>
+                        </div>
                         <p>${item.desc}</p>
                         <div class="aside-project-gallery">
                           ${item.gallery.map(e => `<img src=${item.path+'/'+e+'.png'} loading="lazy" />` ).join("")}
@@ -102,6 +109,9 @@ window.addEventListener('DOMContentLoaded', () => {
               <div class='project-footer'>
                 <a href=${e.url} target="_blank" >Go to Project</a>
                 <button onclick="preview(${e.id})" >Previews</button>
+                <a href=${e.github} target="_blank" >
+                  <i style="font-size:1.5em" class="fa-brands fa-github item"></i>
+                </a>
               </div>
             </div>
           </div>
