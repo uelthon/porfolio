@@ -25,8 +25,8 @@ const projects = [
   {
     id: 2,
     title: 'My Porfolio',
-    url: 'https://uelthon.github.io/porfolio/',
-    github: 'https://github.com/uelthon/porfolio',
+    url: 'https://uelthon.github.io/',
+    github: 'https://github.com/uelthon/uelthon.github.io',
     path: 'assets/myporfolio',
     img: 'assets/myporfolio/0.png',
     backend: [],
