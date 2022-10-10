@@ -14,7 +14,7 @@ const projects = [
     id: 1,
     title: 'CellStore',
     url: 'https://cellstore.onrender.com/',
-    github: 'https://github.com/uelthon/cellstore',
+    github: 'https://github.com/uelthon/cellstore-project',
     path: 'assets/cellstore',
     img: 'assets/cellstore/0.png',
     backend: ['JavaScript', 'NodeJs', 'Express', 'MongoDB'],
