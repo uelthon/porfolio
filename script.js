@@ -24,6 +24,18 @@ const projects = [
   },
   {
     id: 2,
+    title: 'CryptoView',
+    url: 'https://cryptoview-ymxx.onrender.com/',
+    github: 'https://github.com/uelthon/cryptoview-project',
+    path: 'assets/cryptoview',
+    img: 'assets/cryptoview/0.png',
+    backend: ['JavaScript', 'NodeJs', 'Express'],
+    frontend: ['ReactJS', 'Redux', 'Bootstrap'],
+    gallery: ['0', '1', '2', '3', '4'],
+    desc: 'An overview of the complete cryptocurrency market'
+  },
+  {
+    id: 3,
     title: 'My Porfolio',
     url: 'https://uelthon.github.io/',
     github: 'https://github.com/uelthon/uelthon.github.io',
