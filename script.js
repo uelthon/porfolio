@@ -35,6 +35,18 @@ const projects = [
     desc: 'An overview of the complete cryptocurrency market'
   },
   {
+    id: 4,
+    title: 'TextRichNotes',
+    url: 'https://textrichapp.onrender.com/',
+    github: 'https://github.com/uelthon/TextRichApp',
+    path: 'assets/textrichnotes',
+    img: 'assets/textrichnotes/0.png',
+    backend: ['Express','Graphql', 'PostgresSQL'],
+    frontend: ['ReactJS', 'Zustand', 'React Query'],
+    gallery: ['0', '1'],
+    desc: 'Keep all of your notes organized in one place'
+  },
+  {
     id: 3,
     title: 'My Porfolio',
     url: 'https://uelthon.github.io/',
