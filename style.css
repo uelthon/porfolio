@@ -177,6 +177,10 @@ nav ul li:hover{
   font-size: 3rem;
 }
 
+.container-home-title p {
+  width: 100%;
+}
+
 .container-home-title .button{
   padding: 1rem 2rem;
   background-color: var(--red);
@@ -576,6 +580,9 @@ aside a {
   }
   .container-home{
     flex-direction: row;
+  }
+  .container-home-title p {
+    width: 60%;
   }
   .container-avatar img{
     width: 300px;

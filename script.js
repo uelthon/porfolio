@@ -29,11 +29,11 @@ const projects = [
     url: 'https://textrichapp.onrender.com/',
     github: 'https://github.com/uelthon/TextRichApp',
     path: 'assets/textrichnotes',
-    img: 'assets/textrichnotes/0.png',
+    img: 'assets/textrichnotes/0.webp',
     backend: ['Express','Graphql', 'PostgresSQL'],
     frontend: ['ReactJS', 'Zustand', 'React Query'],
     gallery: ['0', '1'],
-    extend: '.png',
+    extend: '.webp',
     desc: 'Keep all of your notes organized in one place'
   },
   {
@@ -42,11 +42,11 @@ const projects = [
     url: 'https://cellstore.onrender.com/',
     github: 'https://github.com/uelthon/cellstore-project',
     path: 'assets/cellstore',
-    img: 'assets/cellstore/0.png',
+    img: 'assets/cellstore/0.webp',
     backend: ['JavaScript', 'NodeJs', 'Express', 'MongoDB'],
     frontend: ['ReactJS', 'Redux', 'Bootstrap'],
     gallery: ['0','1','2','3','4'],
-    extend: '.png',
+    extend: '.webp',
     desc: 'An PWA E-commerce Application to Buy Smartphones.'
   },
   {
@@ -55,11 +55,11 @@ const projects = [
     url: 'https://cryptoview-ymxx.onrender.com/',
     github: 'https://github.com/uelthon/cryptoview-project',
     path: 'assets/cryptoview',
-    img: 'assets/cryptoview/0.png',
+    img: 'assets/cryptoview/0.webp',
     backend: ['JavaScript', 'NodeJs', 'Express'],
     frontend: ['ReactJS', 'Redux', 'Bootstrap'],
     gallery: ['0', '1', '2', '3', '4'],
-    extend: '.png',
+    extend: '.webp',
     desc: 'An overview of the complete cryptocurrency market'
   },
   {
@@ -68,11 +68,11 @@ const projects = [
     url: 'https://uelthon.github.io/',
     github: 'https://github.com/uelthon/uelthon.github.io',
     path: 'assets/myporfolio',
-    img: 'assets/myporfolio/0.png',
+    img: 'assets/myporfolio/0.webp',
     backend: [],
     frontend: ['HTML5', 'CSS', 'JavaScript'],
     gallery: ['0','1','2','3'],
-    extend: '.png',
+    extend: '.webp',
     desc: 'My Full Stack Web Developer Porfolio'
   }
 ]
