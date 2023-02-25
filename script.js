@@ -11,6 +11,32 @@ const asideProject = document.querySelector('.aside-project')
 
 const projects = [
   {
+    id:5,
+    title: 'TexttoImage',
+    url: 'https://texttoimage-lcqz.onrender.com/',
+    github: 'https://github.com/uelthon/AI-image-generator',
+    path: 'assets/texttoimage',
+    img: 'assets/texttoimage/0.webp',
+    backend: ['Express', 'MongoDB', 'Supabase'],
+    frontend: ['ReactJS', 'Zustand', 'ReactQuery', 'Tailwind'],
+    gallery: ['0', '1', '2'],
+    extend: '.webp',
+    desc: 'Convert text to image and create visually stunning content.'
+  },
+  {
+    id: 4,
+    title: 'TextRichNotes',
+    url: 'https://textrichapp.onrender.com/',
+    github: 'https://github.com/uelthon/TextRichApp',
+    path: 'assets/textrichnotes',
+    img: 'assets/textrichnotes/0.png',
+    backend: ['Express','Graphql', 'PostgresSQL'],
+    frontend: ['ReactJS', 'Zustand', 'React Query'],
+    gallery: ['0', '1'],
+    extend: '.png',
+    desc: 'Keep all of your notes organized in one place'
+  },
+  {
     id: 1,
     title: 'CellStore',
     url: 'https://cellstore.onrender.com/',
@@ -20,6 +46,7 @@ const projects = [
     backend: ['JavaScript', 'NodeJs', 'Express', 'MongoDB'],
     frontend: ['ReactJS', 'Redux', 'Bootstrap'],
     gallery: ['0','1','2','3','4'],
+    extend: '.png',
     desc: 'An PWA E-commerce Application to Buy Smartphones.'
   },
   {
@@ -32,19 +59,8 @@ const projects = [
     backend: ['JavaScript', 'NodeJs', 'Express'],
     frontend: ['ReactJS', 'Redux', 'Bootstrap'],
     gallery: ['0', '1', '2', '3', '4'],
+    extend: '.png',
     desc: 'An overview of the complete cryptocurrency market'
-  },
-  {
-    id: 4,
-    title: 'TextRichNotes',
-    url: 'https://textrichapp.onrender.com/',
-    github: 'https://github.com/uelthon/TextRichApp',
-    path: 'assets/textrichnotes',
-    img: 'assets/textrichnotes/0.png',
-    backend: ['Express','Graphql', 'PostgresSQL'],
-    frontend: ['ReactJS', 'Zustand', 'React Query'],
-    gallery: ['0', '1'],
-    desc: 'Keep all of your notes organized in one place'
   },
   {
     id: 3,
@@ -56,6 +72,7 @@ const projects = [
     backend: [],
     frontend: ['HTML5', 'CSS', 'JavaScript'],
     gallery: ['0','1','2','3'],
+    extend: '.png',
     desc: 'My Full Stack Web Developer Porfolio'
   }
 ]
@@ -88,7 +105,7 @@ function displayProject(id){
                         </div>
                         <p>${item.desc}</p>
                         <div class="aside-project-gallery">
-                          ${item.gallery.map(e => `<img src=${item.path+'/'+e+'.png'} loading="lazy" />` ).join("")}
+                          ${item.gallery.map(e => `<img src=${item.path+'/'+e+item.extend} loading="lazy" />` ).join("")}
                         </div>
                         <a href=${item.url} target="_blank">Go to Project</a> 
                       `

@@ -14,6 +14,7 @@ html{
   scrollbar-width: thin;
   scrollbar-color: #f2f2f2 #212437;
   scroll-behavior: smooth;
+  scroll-padding-top: 95px;
 }
 
 html::-webkit-scrollbar{
