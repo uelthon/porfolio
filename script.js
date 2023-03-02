@@ -13,7 +13,7 @@ const projects = [
   {
     id:5,
     title: 'TexttoImage',
-    url: 'https://texttoimage-lcqz.onrender.com/',
+    url: 'https://image-generator-next.vercel.app/',
     github: 'https://github.com/uelthon/AI-image-generator',
     path: 'assets/texttoimage',
     img: 'assets/texttoimage/0.webp',
